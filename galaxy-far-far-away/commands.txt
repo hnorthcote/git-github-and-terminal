@@ -1,0 +1,46 @@
+1) 	mkdir death_star
+	cd death_star
+	touch darth_vader.txt princess_leia.txt storm_trooper.txt
+2)	mkdir tatooine
+	cd tatooine
+	touch luke.txt ben_kenobi.txt
+3)	mkdir millenium_falcon
+	cd millenium_falcon
+	touch han_solo.txt chewbaca.txt
+4)	cd ..
+	mv ben_kenobi.txt obi_wan.txt
+5)	cp ~/git-github-and-terminal/galaxy-far-far-away/death_star/storm_trooper.txt ~/git-github-and-terminal/galaxy-far-far-away/tatooine/
+6)	mv ~/git-github-and-terminal/galaxy-far-far-away/tatooine/luke.txt ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon/
+	mv ~/git-github-and-terminal/galaxy-far-far-away/tatooine/obi_wan.txt ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon/
+7)	mv ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon ~/git-github-and-terminal/galaxy-far-far-away/ 
+8)	mv ~/git-github-and-terminal/galaxy-far-far-away/millenium_falcon ~/git-github-and-terminal/galaxy-far-far-away/death_star/
+9)	mv ~/git-github-and-terminal/galaxy-far-far-away/death_star/princess_leia.txt ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon/
+10)	rm ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon/obi_wan.txt
+11)	cd ..
+	mkdir yavin_4
+12)	mv ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/
+13)	cd yavin_4/
+	mkdir x_wing
+14)	mv ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon/princess_leia.txt ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/
+	mv ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon/luke.txt ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/x_wing/
+15)	mv ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon ~/git-github-and-terminal/galaxy-far-far-away/
+	mv ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/x_wing ~/git-github-and-terminal/galaxy-far-far-away/
+16)	cd ..
+	cd death_star/
+	mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+17)	mv ~/git-github-and-terminal/galaxy-far-far-away/death_star/darth_vader.txt ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1/
+18)     cp ~/git-github-and-terminal/galaxy-far-far-away/death_star/storm_trooper.txt ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_2/
+	cp ~/git-github-and-terminal/galaxy-far-far-away/death_star/storm_trooper.txt ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_3/
+19)	mv ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1 ~/git-github-and-terminal/galaxy-far-far-away/
+	mv ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_2 ~/git-github-and-terminal/galaxy-far-far-away/
+	mv ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_3 ~/git-github-and-terminal/galaxy-far-far-away/
+20)	rm -r ~/git-github-and-terminal/galaxy-far-far-away/tie_fighter_2
+	rm -r ~/git-github-and-terminal/galaxy-far-far-away/tie_fighter_3
+21)	touch ~/git-github-and-terminal/galaxy-far-far-away/x_wing/the_force.txt
+22)	rm -r ~/git-github-and-terminal/galaxy-far-far-away/death_star
+23)	mv ~/git-github-and-terminal/galaxy-far-far-away/x_wing/ ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/
+	mv ~/git-github-and-terminal/galaxy-far-far-away/millenium_falcon/ ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/
+
+
+ 	
+
